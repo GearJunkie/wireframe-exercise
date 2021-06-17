@@ -1,91 +1,98 @@
 body {
   width: 100%;
   background-color: white;
-  margin: auto;
   box-sizing: border-box;
+  position: relative;
 }
 
 header {
-  display: block;
-  background-color: rgb(34, 31, 31);
-  width: 100%;
+  background-color: rgb(68, 67, 67);
   text-align: center;
+  position: static;
+  padding: 2%;
+  box-sizing: border-box;
+  display: block;
 }
 
 header img {
-  float: left;
-  margin-top: 1.75%;
+ float: left;
+ margin-left: 3.25%;
+ margin-top: 2%;
+ width: 250px;
+ height: 100px;
 }
 
 nav {
   display: inline-block;
-  width: 100%;
-
-}
-
-ul {
-
-}
-
-ul li {
-
+  width: 60%;
 }
 
 li {
-  display: inline;
-  color: dimgray;
+  display: inline-block;
+  color: rgb(119, 118, 118);
+  padding: 5%;
+  margin-right: 5%;
 }
+
 
 main {
-
+  width: 100%;
 }
 
-section {
-
-}
 
 section:nth-child(1) {
-  display: flex;
   justify-content: center;
-  width: 90%;
+  width: 100%;
+  position: relative;
 }
 
 section:nth-child(1) img {
   justify-content: center;
+  position: relative;
+  width: 90%;
+  margin-top: 3%;
+  margin-left: 5.25%;
 }
 
 section:nth-child(2) {
-
+  width: 100%;
+  position: relative;
 }
 
 section:nth-child(2) img {
-  width: 28.5%;
-  margin: 0%;
-  padding: 1%;
-  justify-content: center;
+  width: 26.25%;
+  margin-left: 5.25%;
+  margin-top: 3%;
+  position: relative;
 }
 
 section:nth-child(3) {
-
+  width: 100%;
+  position: relative;
 }
 
 section:nth-child(3) img {
-
-}
-
-article {
-
+  width: 550px;
+  height: 400px;
+  margin-left: 5.25%;
+  margin-right: 3%;
+  margin-top: 3%;
+  float: left;
+  position: static;
 }
 
 h2 {
-
+  position: relative;
+  display: inline-block;
+  margin-top: 3%;
+  font-size: 3em;
 }
 
-
-article p {
-
+p {
+  position: static;
+  font-size: 1.5em;
+  overflow: scroll
 }
-
 button {
 
 }
