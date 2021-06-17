@@ -1,0 +1,91 @@
+body {
+  width: 100%;
+  background-color: white;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+header {
+  display: block;
+  background-color: rgb(34, 31, 31);
+  width: 100%;
+  text-align: center;
+}
+
+header img {
+  float: left;
+  margin-top: 1.75%;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+
+}
+
+ul {
+
+}
+
+ul li {
+
+}
+
+li {
+  display: inline;
+  color: dimgray;
+}
+
+main {
+
+}
+
+section {
+
+}
+
+section:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+section:nth-child(1) img {
+  justify-content: center;
+}
+
+section:nth-child(2) {
+
+}
+
+section:nth-child(2) img {
+  width: 28.5%;
+  margin: 0%;
+  padding: 1%;
+  justify-content: center;
+}
+
+section:nth-child(3) {
+
+}
+
+section:nth-child(3) img {
+
+}
+
+article {
+
+}
+
+h2 {
+
+}
+
+
+article p {
+
+}
+
+button {
+
+}
